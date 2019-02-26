@@ -1,0 +1,988 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/ux_1465814801_808029/iconfont.eot");
+  /* IE9*/
+  src: url("../fonts/ux_1465814801_808029/iconfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ux_1465814801_808029/iconfont.woff") format("woff"), url("../fonts/ux_1465814801_808029/iconfont.ttf") format("truetype"), url("../fonts/ux_1465814801_808029/iconfont.svg#iconfont") format("svg");
+  /* iOS 4.1- */ }
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.com {
+  color: #93a1a1; }
+
+.lit {
+  color: #195f91; }
+
+.pun, .opn, .clo {
+  color: #93a1a1; }
+
+.fun {
+  color: #dc322f; }
+
+.str, .atv {
+  color: #ff8a3c; }
+
+.kwd, .prettyprint .tag {
+  color: #195f91; }
+
+.typ, .atn, .dec, .var {
+  color: #3fbf79; }
+
+.pln {
+  color: #48484c; }
+
+.pun {
+  color: #48484c; }
+
+pre.prettyprint {
+  font-family: Consolas,"Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace; }
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin: 0 0 0 40px;
+  /* IE indents via margin-left */ }
+
+ol.linenums li {
+  padding-left: 10px;
+  color: #bebec5;
+  line-height: 24px;
+  font-size: 13px;
+  text-shadow: 0 1px 0 #fff; }
+
+#fullpage {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  touch-action: none;
+  transform: translate3d(0px, 0px, 0px); }
+
+.section {
+  display: table;
+  table-layout: fixed;
+  width: 100%; }
+
+body {
+  font-size: 30px;
+  background: #011B2C; }
+
+ul, li, h1, h2, h3, h4, h5, h6, p, i {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  width: 100%;
+  text-align: center; }
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: white!important;
+  width: 16px!important;
+  height: 16px!important;
+  margin: 0!important;
+}
+
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li a.active span,
+.fp-slidesNav ul li:hover a.active span{
+  background: #09caff !important
+}
+
+#fullpage {
+  width: 100%; }
+  #fullpage #for1 {
+    margin: auto;
+    color: black;
+    background: url(../images/for2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: 10000000;
+    position: relative; }
+    #fullpage #for1 .yuan {
+      width: 330px;
+      height: 330px;
+      margin: auto;
+      border: 2px solid #B2ECFE;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 330px;
+      font-size: 40px;
+      font-weight: 700;
+      color: #B2ECFE; }
+  #fullpage #for2 {
+    width: 100%;
+    color: white;
+    margin: auto;
+    background: #071215;
+    position: relative; }
+    #fullpage #for2 .diannao {
+      width: 80%;
+      height: 80%;
+      /*background:red;*/
+      margin: auto; }
+      #fullpage #for2 .diannao .dntop {
+        width: 80%;
+        height: 90%;
+        /*background: green;*/
+        border: 2px solid #D6F2F8;
+        border-bottom: none;
+        margin: auto;
+        border-radius: 30px 30px 10px 10px; }
+        #fullpage #for2 .diannao .dntop .dntopz {
+          width: 95%;
+          height: 90%;
+          margin: 3% auto;
+          border: 2px solid #D6F2F8;
+          overflow: hidden;
+          position: relative; }
+          #fullpage #for2 .diannao .dntop .dntopz img {
+            margin: 0 auto;
+            width: 100%;
+            height: 100%; }
+      #fullpage #for2 .diannao .dnbom {
+        width: 100%;
+        height: 5%;
+        border: 2px solid #D6F2F8;
+        border-radius: 10px 10px 30px 30px; }
+    #fullpage #for2 .pingban {
+      display: none;
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      margin-top: 10%;
+      position: relative; }
+      #fullpage #for2 .pingban .dntop {
+        width: 80%;
+        height: 90%;
+        border: 2px solid #D6F2F8;
+        margin: auto;
+        border-radius: 30px 30px 30px 30px;
+        position: relative; }
+        #fullpage #for2 .pingban .dntop .dntopz {
+          width: 75%;
+          height: 80%;
+          margin: auto;
+          border: 2px solid #D6F2F8;
+          overflow: hidden;
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          bottom: 0; }
+          #fullpage #for2 .pingban .dntop .dntopz img {
+            margin: 0 auto;
+            width: 100%;
+            height: 100%; }
+      #fullpage #for2 .pingban .dnbom {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid #D6F2F8;
+        position: absolute;
+        right: 13%;
+        bottom: 50%; }
+        #fullpage #for2 .pingban .dnbom .dnpm {
+          width: 20px;
+          height: 20px;
+          border: 2px solid #D6F2F8;
+          position: absolute;
+          right: 20%;
+          bottom: 20%; }
+    #fullpage #for2 .ta {
+      font-size: 15px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      height: 220px;
+      width: 420px;
+      z-index: 2;
+      -webkit-transition: all 1s, color 400ms, outline 50ms;
+      transition: all 1s, color 400ms, outline 50ms;
+      overflow: hidden; }
+    #fullpage #for2 .textarea {
+      display: block;
+      background: none;
+      height: 200px;
+      width: 400px;
+      padding: 10px;
+      color: #FEFEFD;
+      font-size: 130%;
+      border: 1px solid #abcaf3;
+      border: 0; }
+    #fullpage #for2 .textarea.dim {
+      color: rgba(236, 236, 236, 0.3); }
+  #fullpage #for3 {
+    width: 85%;
+    height: 80%;
+    margin: auto;
+    position: relative; }
+    #fullpage #for3 .zuopin {
+      margin: auto;
+      top: 14%;
+      left: 24%;
+      width: 53%;
+      height: 66%;
+      position: absolute;
+      z-index: 1; }
+      #fullpage #for3 .zuopin li {
+        float: left;
+        width: 30%;
+        height: 30%;
+        text-align: center;
+        margin: 1.5%; }
+    #fullpage #for3 #dowebok1 {
+      transition: all 0.8s ease; }
+    #fullpage #for3 #dowebok2 {
+      transition: all 0.8s ease; }
+    #fullpage #for3 #dowebok3 {
+      transition: all 0.8s ease; }
+    #fullpage #for3 #dowebok4 {
+      transition: all 0.8s ease; }
+    #fullpage #for3 #dowebok5 {
+      transition: all 0.8s ease; }
+    #fullpage #for3 #dowebok6 {
+      transition: all 0.8s ease; }
+    #fullpage #for3 #dowebok7 {
+      transition: all 0.8s ease; }
+    #fullpage #for3 #dowebok8 {
+      transition: all 0.8s ease; }
+    #fullpage #for3 #dowebok9 {
+      transition: all 0.8s ease; }
+  #fullpage #for4 {
+    width: 85%;
+    height: 80%;
+    margin: auto;
+    position: relative; }
+    #fullpage #for4 .zuopin {
+      margin: auto;
+      top: 18%;
+      left: 24%;
+      width: 53%;
+      height: 61%;
+      position: absolute;
+      z-index: 1;
+      opacity: 0.9; }
+      #fullpage #for4 .zuopin li {
+        float: left;
+        width: 30.8%;
+        height: 27.5%;
+        text-align: center;
+        margin: 1.9% 2% 1.9% 0.53%; }
+        #fullpage #for4 .zuopin li img {
+          /*width: 100%;*/
+          height: 100%;
+          opacity: 1; }
+        #fullpage #for4 .zuopin li:hover {
+          /*background: red;*/ }
+  #fullpage #for5 {
+    width: 85%;
+    height: 80%;
+    margin: auto;
+    position: relative; }
+    #fullpage #for5 .zuopin {
+      margin: auto;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      opacity: 0.9; }
+      #fullpage #for5 .zuopin .zuopinz {
+        width: 800px;
+        height: 200px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        /*background: blue;*/ }
+      #fullpage #for5 .zuopin li {
+        float: left;
+        width: 20%;
+        height: 100%;
+        text-align: center;
+        margin-right: 5%;
+        border: 2px dotted white;
+        box-sizing: border-box;
+        padding: 10px;
+        position: relative;
+        transition: all 0.8s ease; }
+        #fullpage #for5 .zuopin li img {
+          width: 100%;
+          height: 100%;
+          opacity: 1; }
+        #fullpage #for5 .zuopin li span {
+          display: block;
+          opacity: 0;
+          width: 50%;
+          height: 100%;
+          position: absolute;
+          margin: auto;
+          transition: all  0.5s linear;
+          background: #000C15;
+          color: white;
+          line-height: 100%;
+          vertical-align: middle; }
+        #fullpage #for5 .zuopin li .span1 {
+          top: 0;
+          left: -50%; }
+        #fullpage #for5 .zuopin li .span2 {
+          right: -50%;
+          top: 0; }
+        #fullpage #for5 .zuopin li:hover span {
+          opacity: 1; }
+        #fullpage #for5 .zuopin li:hover .span1 {
+          top: 0;
+          left: 0; }
+        #fullpage #for5 .zuopin li:hover .span2 {
+          right: 0;
+          top: 0; }
+  #fullpage #for6 {
+    width: 85%;
+    height: 80%;
+    margin: auto;
+    position: relative; }
+    #fullpage #for6 .lianxi {
+      margin: auto;
+      top: 10%;
+      left: 30%;
+      width: 40%;
+      height: 80%;
+      position: absolute;
+      z-index: 1;
+      opacity: 0.9;
+      text-align: center;
+      color: white; }
+      #fullpage #for6 .lianxi .biaoti {
+        margin-bottom: 10%; }
+      #fullpage #for6 .lianxi .touxiang {
+        float: left;
+        width: 48%;
+        height: 50%;
+        margin: auto;
+        margin-bottom: 10%;
+        margin-right: 2%; }
+        #fullpage #for6 .lianxi .touxiang span {
+          display: block;
+          font-size: 16px; }
+      #fullpage #for6 .lianxi .fangshi {
+        width: 100%;
+        height: 20%;
+        text-align: center; }
+        #fullpage #for6 .lianxi .fangshi li {
+          width: 25%;
+          float: left;
+          margin-right: 5px; }
+          #fullpage #for6 .lianxi .fangshi li i {
+            font-size: 20px; }
+          #fullpage #for6 .lianxi .fangshi li span {
+            font-size: 16px; }
+          #fullpage #for6 .lianxi .fangshi li i, #fullpage #for6 .lianxi .fangshi li span {
+            display: block; }
+        #fullpage #for6 .lianxi .fangshi .youxiang {
+          width: 30%; }
+  #fullpage #for7 img {
+    width: 100%; }
+  #fullpage .shouye {
+    width: 96%;
+    height: 96%;
+    margin: auto;
+    /*background: green;*/ }
+  #fullpage .fk li {
+    position: absolute; }
+  #fullpage .fk li:nth-child(1) {
+    top: 0;
+    left: 0; }
+  #fullpage .fk li:nth-child(2) {
+    top: 0;
+    right: 0; }
+  #fullpage .fk li:nth-child(3) {
+    bottom: 0;
+    left: 0; }
+  #fullpage .fk li:nth-child(4) {
+    bottom: 0;
+    right: 0; }
+  #fullpage .xt {
+    width: 96%;
+    margin: auto;
+    height: 92%;
+    margin-top: 2%;
+    margin-left: 2%;
+    position: relative;
+    float: left; }
+    #fullpage .xt img {
+      margin-top: 2%;
+      margin-left: 4%;
+      width: 92%;
+      height: 94%; }
+    #fullpage .xt li {
+      position: absolute;
+      transition: all 1.5s linear; }
+    #fullpage .xt li:nth-child(1) {
+      width: 0%;
+      height: 0px;
+      top: 0;
+      left: 0;
+      border: 1px dotted #EE5C35; }
+    #fullpage .xt li:nth-child(2) {
+      width: 0px;
+      height: 0%;
+      right: 0;
+      bottom: 0;
+      border: 1px dotted #F5B52E; }
+    #fullpage .xt li:nth-child(3) {
+      width: 0%;
+      height: 0px;
+      border: 1px dotted #1A604A;
+      right: 0;
+      bottom: 0; }
+    #fullpage .xt li:nth-child(4) {
+      left: 0;
+      top: 0;
+      width: 0px;
+      height: 0%;
+      border: 1px dotted #1674BC; }
+  #fullpage .neirong {
+    margin: auto;
+    top: 8%;
+    left: 7.5%;
+    width: 85%;
+    height: 84%;
+    position: absolute;
+    z-index: 1; }
+    #fullpage .neirong .liebiaokg {
+      display: block;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #025673;
+      margin: 30px 0 0 40px;
+      text-align: center;
+      overflow: hidden;
+      color: #899095; }
+      #fullpage .neirong .liebiaokg span {
+        width: 40px;
+        height: 5px;
+        display: block; }
+    #fullpage .neirong .shubiao {
+      width: 24px;
+      height: 40px;
+      position: absolute;
+      bottom: 12%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background: url(../images/shubiao.png) no-repeat; }
+
+@keyframes jtd1 {
+  0% {
+    transform-origin: center center;
+    background: url(../images/jt.png) no-repeat; }
+  50% {
+    transform-origin: center center;
+    background: url(../images/jt2.png) no-repeat; }
+  100% {
+    transform-origin: center center;
+    background: url(../images/jt3.png) no-repeat; } }
+
+@keyframes jtd2 {
+  0% {
+    transform-origin: center center;
+    background: url(../images/jt2.png) no-repeat; }
+  50% {
+    transform-origin: center center;
+    background: url(../images/jt3.png) no-repeat; }
+  100% {
+    transform-origin: center center;
+    background: url(../images/jt.png) no-repeat; } }
+
+@keyframes jtd3 {
+  0% {
+    transform-origin: center center;
+    background: url(../images/jt3.png) no-repeat; }
+  50% {
+    transform-origin: center center;
+    background: url(../images/jt2.png) no-repeat; }
+  100% {
+    transform-origin: center center;
+    background: url(../images/jt.png) no-repeat; } }
+
+@keyframes jtdd {
+  0% {
+    bottom: 3%; }
+  25% {
+    bottom: 3.5%; }
+  50% {
+    bottom: 4%; }
+  70% {
+    bottom: 3.5%; }
+  100% {
+    bottom: 3%; } }
+    #fullpage .neirong .jiantou {
+      width: 30px;
+      height: 40px;
+      position: absolute;
+      bottom: 3%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      z-index: 1000;
+      animation: jtdd 1s infinite steps(10, end); }
+      #fullpage .neirong .jiantou .jt1 {
+        width: 30px;
+        height: 13px;
+        animation: jtd1 1s infinite steps(10, end); }
+      #fullpage .neirong .jiantou .jt2 {
+        width: 30px;
+        height: 13px;
+        animation: jtd2 1s infinite steps(10, end); }
+      #fullpage .neirong .jiantou .jt3 {
+        width: 30px;
+        height: 13px;
+        animation: jtd3 1s infinite steps(10, end); }
+  #fullpage #c:checked + .liebiao {
+    display: none; }
+  #fullpage .section.active .fk li .rings {
+    text-align: center;
+    margin: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 0;
+    -webkit-animation: fade-in 1s ease-in 1s forwards;
+    animation: fade-in 1s ease-in 1s forwards; }
+  #fullpage .section.active .fk li .ring-1 {
+    width: 80px;
+    height: 80px;
+    border-top: 5px solid #1674BC;
+    border-right: 5px solid #1674BC;
+    border-bottom: 5px solid rgba(22, 116, 188, 0.3);
+    border-left: 5px solid rgba(22, 116, 188, 0.3);
+    border-radius: 50%;
+    margin: auto;
+    -webkit-animation: spin-left 5s infinite linear 0.5s;
+    animation: spin-left 5s infinite linear 0.5s; }
+  #fullpage .section.active .fk li .ring-1 .ring-2 {
+    width: 70px;
+    height: 70px;
+    border-top: 5px solid #00A396;
+    border-right: 5px solid #00A396;
+    border-bottom: 5px solid rgba(0, 163, 150, 0.3);
+    border-left: 5px solid rgba(0, 163, 150, 0.3);
+    border-radius: 50%;
+    margin: auto;
+    -webkit-animation: spin-right 4s infinite linear 0.7s;
+    animation: spin-right 4s infinite linear 0.7s; }
+  #fullpage .section.active .fk li .ring-1 .ring-2 .ring-3 {
+    width: 60px;
+    height: 60px;
+    border-top: 5px solid #81C540;
+    border-right: 5px solid #81C540;
+    border-bottom: 5px solid rgba(129, 197, 64, 0.3);
+    border-left: 5px solid rgba(129, 197, 64, 0.3);
+    border-radius: 50%;
+    margin: auto;
+    -webkit-animation: spin-right 3s infinite linear 0.9s;
+    animation: spin-right 3s infinite linear 0.9s; }
+  #fullpage .section.active .fk li .ring-1 .ring-2 .ring-3 .ring-4 {
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid #F5B52E;
+    border-right: 5px solid #F5B52E;
+    border-bottom: 5px solid rgba(245, 181, 46, 0.3);
+    border-left: 5px solid rgba(245, 181, 46, 0.3);
+    border-radius: 50%;
+    margin: auto;
+    -webkit-animation: spin-left 2s infinite linear 1.1s;
+    animation: spin-left 2s infinite linear 1.1s; }
+  #fullpage .section.active .fk li .ring-1 .ring-2 .ring-3 .ring-4 .ring-5 {
+    width: 40px;
+    height: 40px;
+    border-top: 5px solid #EE5C35;
+    border-right: 5px solid #EE5C35;
+    border-bottom: 5px solid rgba(238, 92, 53, 0.3);
+    border-left: 5px solid rgba(238, 92, 53, 0.3);
+    border-radius: 50%;
+    margin: auto;
+    -webkit-animation: spin-right 1s infinite linear 1.3s;
+    animation: spin-right 1s infinite linear 1.3s; }
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-webkit-keyframes spin-left {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@keyframes spin-left {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@-webkit-keyframes fade-in {
+  100% {
+    opacity: 1; } }
+
+@keyframes fade-in {
+  100% {
+    opacity: 1; } }
+  #fullpage .section.active .xt li:nth-child(1) {
+    width: 100%; }
+  #fullpage .section.active .xt li:nth-child(2) {
+    height: 100%; }
+  #fullpage .section.active .xt li:nth-child(3) {
+    width: 100%; }
+  #fullpage .section.active .xt li:nth-child(4) {
+    height: 100%; }
+
+.btn-float {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  display: inline-block;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11);
+  background: url(../images/for2.jpg) no-repeat;
+  background-size: cover; }
+
+.btn-float:hover {
+  text-decoration: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15), 0 4px 15px rgba(0, 0, 0, 0.13); }
+
+.open .btn-float {
+  width: 50px;
+  height: 50px;
+  line-height: 50px; }
+
+.btn-float:active, .btn-float:focus {
+  outline: none; }
+
+.btn-float + .btn-float {
+  margin-left: 5px; }
+
+.icon-bars {
+  background: #fff;
+  height: 1px;
+  width: 22px;
+  margin: auto;
+  display: block;
+  position: relative;
+  -moz-transition: 0.3s 0.3s;
+  -o-transition: 0.3s 0.3s;
+  -webkit-transition: 0.3s;
+  -webkit-transition-delay: 0.3s;
+  -webkit-transition: 0.3s 0.3s;
+  transition: 0.3s 0.3s; }
+
+.icon-bars:after {
+  content: '';
+  position: absolute;
+  height: 22px;
+  width: 1px;
+  background: #fff;
+  top: -10px; }
+
+.float-btn-group {
+  position: absolute;
+  float: right;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  top: 15%;
+  right: 15%; }
+
+.float-btn-group .btn-triger {
+  z-index: 15000000;
+  float: left; }
+
+.float-btn-group .btn-list {
+  position: absolute;
+  right: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 10000; }
+
+.float-btn-group .btn-list li {
+  display: inline-block; }
+
+.float-btn-group.open .icon-bars {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+.model-1 .float-btn-group {
+  margin: auto;
+  width: 50px; }
+
+.model-1 .float-btn-group .icon-bars {
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+
+.model-1 .float-btn-group .btn-list {
+  background: rgba(0, 0, 0, 0.2);
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  -moz-transition: 0.3s 0.3s;
+  -o-transition: 0.3s 0.3s;
+  -webkit-transition: 0.3s;
+  -webkit-transition-delay: 0.3s;
+  -webkit-transition: 0.3s 0.3s;
+  transition: 0.3s 0.3s;
+  border-radius: 50%; }
+
+.model-1 .float-btn-group .btn-list .btn-float {
+  position: absolute;
+  background: none;
+  box-shadow: none;
+  -ms-transform: scale(0, 0);
+  -webkit-transform: scale(0, 0);
+  transform: scale(0, 0);
+  margin: auto;
+  z-index: 10000; }
+
+.model-1 .float-btn-group .btn-list .btn-float:nth-child(1) {
+  left: 0;
+  right: 0;
+  top: 10px; }
+
+.model-1 .float-btn-group .btn-list .btn-float:nth-child(2) {
+  left: 10px;
+  top: 0;
+  bottom: 0; }
+
+.model-1 .float-btn-group .btn-list .btn-float:nth-child(3) {
+  left: 0;
+  right: 0;
+  bottom: 10px; }
+
+.model-1 .float-btn-group .btn-list .btn-float:nth-child(4) {
+  right: 10px;
+  top: 0;
+  bottom: 0; }
+
+.model-1 .float-btn-group.open .btn-list {
+  width: 200px;
+  height: 200px;
+  left: -75px;
+  top: -75px;
+  opacity: 1; }
+
+.model-1 .float-btn-group.open .btn-list .btn-float {
+  -ms-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+  -moz-transition: 0.3s 0.6s;
+  -o-transition: 0.3s 0.6s;
+  -webkit-transition: 0.3s;
+  -webkit-transition-delay: 0.6s;
+  -webkit-transition: 0.3s 0.6s;
+  transition: 0.3s 0.6s; }
+
+.model-1 .float-btn-group.open .btn-list .btn-float:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-shadow: 1px 4px 1px #666; }
+
+.blue {
+  background: blue; }
+
+@media screen and (max-width: 1000px) {
+  #fullpage #for2 .diannao {
+    display: none; }
+  #fullpage #for2 .pingban {
+    display: block; }
+  #fullpage #for5 .zuopin .zuopinz {
+    width: 600px;
+    height: 500px; }
+    #fullpage #for5 .zuopin .zuopinz li {
+      margin: 5%;
+      width: 40%;
+      height: 40%; }
+  #fullpage .ta {
+    height: 50%;
+    width: 100%; }
+  #fullpage .textarea {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    font-size: 120%; } }
+
+@media screen and (max-width: 740px) {
+  #fullpage #for1 .yuan {
+    font-size: 30px; }
+  .model-1 {
+    display: block;
+    z-index: 1000; }
+  #fp-nav {
+    display: none; }
+  #fullpage .fk li:nth-child(1) {
+    top: 50px; }
+  #fullpage .fk li:nth-child(2) {
+    top: 50px; }
+  #fullpage .fk li:nth-child(3) {
+    bottom: 30px; }
+  #fullpage .fk li:nth-child(4) {
+    bottom: 30px; }
+  #fullpage #for2 .diannao {
+    display: none; }
+  #fullpage #for2 .pingban {
+    transform: 90deg; }
+    #fullpage #for2 .pingban .dnbom {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 2px solid #D6F2F8;
+      position: absolute;
+      right: 50%;
+      margin-right: -20px;
+      bottom: 10.5%; }
+      #fullpage #for2 .pingban .dnbom .dnpm {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #D6F2F8;
+        position: absolute;
+        right: 20%;
+        bottom: 20%; }
+  #fullpage #for2 .ta {
+    height: 50%;
+    width: 50%; }
+  #fullpage #for2 .textarea {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    font-size: 110%; }
+  #fullpage .neirong .jiantou {
+    display: none; }
+  #fullpage .neirong .shubiao {
+    display: none; }
+  #fullpage .shouye {
+    width: 100%;
+    height: 50%;
+    margin: auto; }
+  #fullpage .btn-float {
+    width: 50px;
+    height: 50px; }
+  #fullpage .float-btn-group {
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 100000; }
+  #fullpage #for3 .zuopin {
+    margin: auto;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+  #fullpage #for4 .zuopin {
+    margin: auto;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+    #fullpage #for4 .zuopin li {
+      display: inline-block;
+      text-align: center; }
+      #fullpage #for4 .zuopin li img {
+        height: 100%;
+        opacity: 1; }
+  #fullpage #for5 .zuopin .zuopinz {
+    width: 280px;
+    height: 280px; }
+    #fullpage #for5 .zuopin .zuopinz li {
+      margin: 5%;
+      width: 40%;
+      height: 40%; }
+  #fullpage #for6 .lianxi {
+    margin: auto;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+    #fullpage #for6 .lianxi .biaoti {
+      margin-bottom: 0;
+      font-size: 20px; }
+    #fullpage #for6 .lianxi .fangshi {
+      float: left;
+      margin-top: 5%; }
+      #fullpage #for6 .lianxi .fangshi .youxiang {
+        margin-right: 20px; }
+      #fullpage #for6 .lianxi .fangshi li {
+        margin-left: 9px;
+        margin-right: 0; }
+        #fullpage #for6 .lianxi .fangshi li span {
+          font-size: 12px; }
+  #dowebok1 {
+    width: 50px;
+    height: 50px; }
+  #dowebok2 {
+    width: 50px;
+    height: 50px; }
+  #dowebok3 {
+    width: 50px;
+    height: 50px; }
+  #dowebok4 {
+    width: 50px;
+    height: 50px; }
+  #dowebok5 {
+    width: 50px;
+    height: 50px; }
+  #dowebok6 {
+    width: 50px;
+    height: 50px; }
+  #dowebok7 {
+    width: 50px;
+    height: 50px; }
+  #dowebok8 {
+    width: 50px;
+    height: 50px; }
+  #dowebok9 {
+    width: 50px;
+    height: 50px; } }

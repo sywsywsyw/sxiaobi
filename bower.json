@@ -1,0 +1,25 @@
+{
+  "name": "gerenzhan",
+  "authors": [
+    "孙跃伟个人网站展示 <347363545@qq.com>"
+  ],
+  "description": "wangye fo shouji",
+  "main": "sywsywsyw.github.io.html",
+  "keywords": [
+    "mobile.gerenzhan"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "Touch": "touch#^0.0.1",
+    "fullpage.js": "fullpage#^2.8.1"
+  }
+}
